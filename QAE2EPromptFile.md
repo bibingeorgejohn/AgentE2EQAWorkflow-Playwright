@@ -181,6 +181,7 @@ Now I need to execute the generated automation scripts and heal any failures usi
    - Final test results after healing
    - Any tests that couldn't be auto-healed
 7. Ensure that the test execution avoids or handles native overlays and pop-ups (e.g. check/save password prompts) automatically.
+8. Generate the Monocart HTML report automatically during execution.
 
 ```
 
@@ -198,6 +199,9 @@ Now I need to execute the generated automation scripts and heal any failures usi
 
 
 * 📋 Summary of healing activities performed
+
+
+* 📊 Generated Monocart HTML report in `test-results/monocart-report/`
 
 
 
