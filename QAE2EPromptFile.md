@@ -86,6 +86,7 @@ Then execute the test scenarios defined in that plan:
    - Any UI inconsistencies or unexpected behaviors
    - Missing validations or bugs discovered
    - Screenshots as evidence
+6. Ensure that you avoid or skip any random browser pop-up, like save password, check password, autofill prompts, or native browser overlays, to prevent test blockage.
 
 ```
 
@@ -137,6 +138,7 @@ Requirements for all scripts:
 - Use proper wait strategies based on actual application behavior
 - Add proper test hooks (beforeEach, afterEach)
 - Configure for multiple browsers (Chrome, Firefox, Safari)
+- Ensure the execution avoids/skips any random browser pop-ups, like save password, check password, or other native overlays
 
 After generating the scripts, run the tests to verify they pass.
 
@@ -178,6 +180,7 @@ Now I need to execute the generated automation scripts and heal any failures usi
    - Healing activities performed
    - Final test results after healing
    - Any tests that couldn't be auto-healed
+7. Ensure that the test execution avoids or handles native overlays and pop-ups (e.g. check/save password prompts) automatically.
 
 ```
 
