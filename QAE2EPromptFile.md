@@ -297,7 +297,9 @@ Please perform the following Git operations:
 - Include validation, navigation, and edge case tests
 
 Resolves Project Repo E2EQA"
-4. Push all changes to the Git repository
+4. Push all changes to the Git repository:
+   - If the repository already exists, create a new feature branch (e.g. `feat/checkout-tests`), push the branch to the remote repository, and create a Pull Request (PR) to merge it into the main branch.
+   - If the repository is fresh and empty, push directly to the main branch.
 
 ```
 
